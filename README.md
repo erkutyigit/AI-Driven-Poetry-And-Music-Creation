@@ -1,9 +1,11 @@
 # AI-Driven-Poetry-And-Music-Creation
 
 Overview
+
 AI-Driven-Poetry-And-Music-Creation is an innovative project that explores the intersection of artificial intelligence and the arts. It utilizes deep learning models to generate original poetry and music compositions. The project integrates natural language processing (NLP) techniques with recurrent neural networks (RNNs) for poetry generation, and leverages music theory principles combined with AI-driven logic for music creation.
 
 Features
+
 Poetry Generation: The project uses a sequence-based neural network to generate lines of poetry. Starting with a seed word or phrase, the model predicts subsequent words to craft a full poem.
 Music Composition: A music generation module creates minor chord progressions and sequences of notes based on user-defined musical scales. The output is structured as a MIDI file.
 Customizable Inputs: Users can adjust various parameters, such as the initial seed text for poetry and the musical scale for compositions.

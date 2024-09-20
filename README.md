@@ -14,13 +14,16 @@ The main objective of this project is to demonstrate how AI can be applied creat
 
 Project Components
 1. Poetry Generation
+
 The poetry generation model is built using an LSTM (Long Short-Term Memory) network with the following features:
 
 Text Preprocessing: The input text is cleaned and tokenized to prepare it for model training.
 Model Architecture: The model uses multiple layers, including embedding, LSTM, and bidirectional layers to predict the next word in a sequence based on the previous context.
 Training: The model is trained on a corpus of poems to learn meaningful patterns and structures in poetic language.
 Generation: By providing a seed word and defining the number of lines and words per line, the model can generate poetry dynamically.
+
 2. Music Creation
+
 The music generation component produces minor chord progressions and melodies, based on:
 
 Scale and Chord Progressions: The user sets a musical scale, and the system generates accompanying chord progressions.
@@ -28,6 +31,7 @@ Melodic Sequences: Using AI-generated patterns, the music engine composes melodi
 MIDI Output: The composed music is exported in MIDI format for further use or playback.
 
 Usage
+
 Poetry Generation
 To generate a poem, simply define the seed_text, number of lines, and words per line using the predict_poem() function.
 

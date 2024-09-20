@@ -7,8 +7,11 @@ AI-Driven-Poetry-And-Music-Creation is an innovative project that explores the i
 Features
 
 Poetry Generation: The project uses a sequence-based neural network to generate lines of poetry. Starting with a seed word or phrase, the model predicts subsequent words to craft a full poem.
+
 Music Composition: A music generation module creates minor chord progressions and sequences of notes based on user-defined musical scales. The output is structured as a MIDI file.
+
 Customizable Inputs: Users can adjust various parameters, such as the initial seed text for poetry and the musical scale for compositions.
+
 Objectives
 The main objective of this project is to demonstrate how AI can be applied creatively to produce artistic outputs, blending the domains of poetry and music. This project serves as a tool for exploring new ways of art generation using modern machine learning algorithms, providing a platform for creative experimentation and further research.
 
@@ -18,8 +21,11 @@ Project Components
 The poetry generation model is built using an LSTM (Long Short-Term Memory) network with the following features:
 
 Text Preprocessing: The input text is cleaned and tokenized to prepare it for model training.
+
 Model Architecture: The model uses multiple layers, including embedding, LSTM, and bidirectional layers to predict the next word in a sequence based on the previous context.
+
 Training: The model is trained on a corpus of poems to learn meaningful patterns and structures in poetic language.
+
 Generation: By providing a seed word and defining the number of lines and words per line, the model can generate poetry dynamically.
 
 2. Music Creation

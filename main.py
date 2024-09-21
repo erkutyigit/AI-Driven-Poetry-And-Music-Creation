@@ -9,7 +9,7 @@ from tensorflow.keras.utils import to_categorical
 from music21 import stream, note
 import random
 
-# Şairin kodu
+
 def clean_text(text):
     text = re.sub(r',', '', text)
     text = re.sub(r'\'', '', text)
@@ -110,7 +110,7 @@ no_lines = 7
 words_per_line = 10
 predict_poem(seed_text, no_lines, words_per_line)
 
-# Müzik kodu
+
 class MinorMusicGenerator:
     # notes in music21 are enumerated from 0 to 127
     # C4 (middle C) = 60
